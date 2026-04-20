@@ -1,0 +1,295 @@
+# SAP SD Transaction Codes Reference
+
+## Master Data Management
+
+### Customer Master
+- XD01 - Create Customer (Centrally)
+- XD02 - Change Customer (Centrally)
+- XD03 - Display Customer (Centrally)
+- XD04 - Customer Changes (Centrally)
+- XD05 - Block/Unblock Customer
+- XD06 - Mark Customer for Deletion
+- XD07 - Customer Changes per Sales Area
+- XD99 - Mass Maintenance Customer Master
+
+- VD01 - Create Customer (Sales View)
+- VD02 - Change Customer (Sales View)
+- VD03 - Display Customer (Sales View)
+
+### Material Master
+- MM01 - Create Material
+- MM02 - Change Material
+- MM03 - Display Material
+- MM04 - Display Changes in Material Master
+- MM06 - Mark Material for Deletion
+
+### Pricing
+- VK11 - Create Condition Record
+- VK12 - Change Condition Record
+- VK13 - Display Condition Record
+- VK14 - Create Condition with Reference
+- VK31 - Create Condition Exclusion
+- VK32 - Change Condition Exclusion
+- VK33 - Display Condition Exclusion
+
+## Sales Documents
+
+### Inquiry
+- VA11 - Create Inquiry
+- VA12 - Change Inquiry
+- VA13 - Display Inquiry
+
+### Quotation
+- VA21 - Create Quotation
+- VA22 - Change Quotation
+- VA23 - Display Quotation
+
+### Sales Order
+- VA01 - Create Sales Order
+- VA02 - Change Sales Order
+- VA03 - Display Sales Order
+- VA05 - List of Sales Orders
+- VA10 - Sales Order with Template
+- VA11 - Create Inquiry (for reference)
+
+### Contracts & Scheduling Agreements
+- VA41 - Create Contract
+- VA42 - Change Contract
+- VA43 - Display Contract
+- VA31 - Create Scheduling Agreement
+- VA32 - Change Scheduling Agreement
+- VA33 - Display Scheduling Agreement
+
+## Delivery Processing
+
+### Outbound Delivery
+- VL01N - Create Outbound Delivery
+- VL02N - Change Outbound Delivery
+- VL03N - Display Outbound Delivery
+- VL04 - Delivery List
+- VL06O - Outbound Delivery Monitor
+- VL06G - List of Deliveries for Goods Issue
+- VL09 - Cancel Goods Issue/Reversal
+
+### Inbound Delivery (Returns)
+- VL31N - Create Inbound Delivery
+- VL32N - Change Inbound Delivery
+- VL33N - Display Inbound Delivery
+
+### Shipping
+- VT01N - Create Shipment
+- VT02N - Change Shipment
+- VT03N - Display Shipment
+- VT70 - Output for Shipments
+
+### Picking & Packing
+- VL06P - Create Picking List
+- VL06I - List Inbound Deliveries for Picking
+- HU01 - Create Handling Unit
+- HU02 - Change Handling Unit
+- HU03 - Display Handling Unit
+
+## Billing
+
+### Invoice/Credit Memo
+- VF01 - Create Billing Document
+- VF02 - Change Billing Document
+- VF03 - Display Billing Document
+- VF04 - Billing Due List
+- VF05 - List of Billing Documents
+- VF06 - Background Processing of Billing Docs
+- VF11 - Cancel Invoice
+
+### Credit/Debit Memo Request
+- VA01 - Create Credit Memo Request
+- VA02 - Change Credit Memo Request
+- VA03 - Display Credit Memo Request
+
+## Output Management
+
+### Output (Printing, Email, EDI)
+- VV11 - Shipment Output
+- VV21 - Delivery Output
+- VV31 - Billing Output
+- NAST - Message Control (Output Processing)
+
+## Reporting & Analysis
+
+### Sales Reports
+- VA05 - Sales Order List
+- V.02 - Incomplete Orders
+- V.03 - Release Orders
+- VC/1 - Sales Document List
+- VC/2 - Sales Document by Sold-to Party
+- VC/3 - Sales Document by Material
+- MC+A - Sales Report by Sales Org
+- MC+E - Sales Report by Customer
+
+### Delivery Reports
+- VL06O - Outbound Delivery Monitor
+- VL06P - Outbound Delivery for Picking
+- VL06G - Outbound Delivery for Goods Issue
+- VL06L - Outbound Delivery Status
+
+### Billing Reports
+- VF05 - List of Billing Documents
+- SD01 - Billing Index
+- FD10N - Customer Account Balance
+- FBL5N - Customer Line Item Display
+
+### Backorder Processing
+- V.15 - Backorder Processing for Sales
+- COV1 - Order Information System
+- COV3 - Sales Information System
+
+## Credit Management
+
+### Credit Control
+- VKM1 - Create Credit Master Data
+- VKM2 - Change Credit Master Data
+- VKM3 - Display Credit Master Data
+- VKM4 - Credit Master Data Changes
+- VKM5 - Block/Unblock Credit Account
+- FD32 - Change Customer Credit Limit
+- FD33 - Display Customer Credit Limit
+
+## Configuration & Customization
+
+### Organizational Structure
+- OVX2 - Sales Organization
+- OVX5 - Distribution Channel
+- OVX6 - Division
+- OVXD - Assign Sales Org to Company Code
+- OVXK - Define Sales Areas
+- OX10 - Define Plant
+- OX09 - Define Storage Location
+- OVXG - Assign Distribution Channel to Sales Org
+
+### Partner Determination
+- VOPA - Customer Partner Procedures
+- VOPAN - Partner Determination Procedure
+
+### Item Category
+- VOV4 - Assign Item Category
+- VOV7 - Define Item Category
+
+### Schedule Line Category
+- VOV6 - Assign Schedule Line Category
+- VOV8 - Define Schedule Line Category
+
+### Pricing Configuration
+- V/06 - Define Condition Types
+- V/07 - Define Access Sequence
+- V/08 - Define Pricing Procedure
+- OVK1 - Assign Pricing Procedure to Sales Area
+- OVKK - Define Pricing Procedure Determination
+
+### Output Determination
+- V/30 - Output Types
+- V/40 - Output Determination Procedure
+- V/43 - Assign Output Determination Procedure
+
+### Text Determination
+- VOTX - Define Text Type
+- VOTXN - Define Text Determination Procedure
+
+### Account Determination
+- VKOA - Account Assignment: Sales Order
+- VKP5 - Revenue Account Determination
+
+## Additional Useful Transactions
+
+### General SAP
+- SE11 - Data Dictionary
+- SE16 - Data Browser
+- SE38 - ABAP Editor
+- SM30 - Table Maintenance
+- SU01 - User Maintenance
+- PFCG - Role Maintenance
+
+### Material Management Integration
+- MB01 - Post Goods Issue
+- MB03 - Display Material Document
+- MB51 - Material Document List
+- MMBE - Stock Overview
+- MD04 - Stock/Requirements List
+
+### Financial Integration
+- FB01 - Post Document
+- FB03 - Display Document
+- FBL1N - Vendor Line Item Display
+- FBL3N - G/L Account Line Item Display
+- F-28 - Post Incoming Payment
+- F-30 - Post Outgoing Payment
+- F-32 - Clear Customer
+- F110 - Automatic Payment Program
+
+### Batch Management
+- MSC1N - Create Batch (Where-Used)
+- MSC2N - Change Batch
+- MSC3N - Display Batch
+
+### Serial Number Management
+- IQ01 - Create Serial Number
+- IQ02 - Change Serial Number
+- IQ03 - Display Serial Number
+- IQ09 - Serial Number List
+
+## Frequently Used Tables
+
+### Sales Documents
+- VBAK - Sales Document Header
+- VBAP - Sales Document Item
+- VBEP - Sales Document Schedule Line
+- VBFA - Document Flow
+- VBKD - Sales Document Business Data
+
+### Delivery Documents
+- LIKP - Delivery Header
+- LIPS - Delivery Item
+
+### Billing Documents
+- VBRK - Billing Header
+- VBRP - Billing Item
+
+### Partner Data
+- KNVV - Customer Master Sales Data
+- KNVP - Customer Master Partner Functions
+- KNA1 - Customer General Data
+- KNVH - Customer Hierarchy
+
+### Pricing
+- KONV - Conditions (Transaction Data)
+- A001-A999 - Condition Tables
+
+### Material Master
+- MARA - Material General Data
+- MARC - Material Plant Data
+- MARD - Material Storage Location Data
+- MVKE - Material Sales Data
+
+### Output
+- NAST - Message Status
+
+## Mobile Transactions (If Enabled)
+- VL31 - Inbound Delivery (Mobile)
+- VL32 - Change Inbound Delivery (Mobile)
+- VL33 - Display Inbound Delivery (Mobile)
+
+## EDI Transactions
+- WE02 - IDoc Display
+- WE05 - IDoc List
+- WE19 - Test Tool for IDoc Processing
+- WE20 - Partner Profiles
+- WE21 - Port Definition
+
+## Archiving
+- SARA - Archive Administration
+
+## Notes:
+1. Transaction codes may vary based on SAP version (ECC, S/4HANA)
+2. Some transactions require specific authorizations
+3. Custom Z* transactions may exist in your system
+4. Always test transactions in development environment first
+5. Use transaction /n to end current transaction
+6. Use transaction /o to open new session
