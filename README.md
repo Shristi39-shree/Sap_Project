@@ -191,8 +191,8 @@ Through this project, I have gained hands-on experience in:
 
 ## 👤 Author Information
 
-**Name:** [Your Name]  
-**Roll Number:** [Your Roll Number]  
+**Name:** Shristi Jha 
+**Roll Number:**23052755 
 **Program:** KIIT SAP Training Program  
 **Specialization:** SAP SD (Sales & Distribution)  
 **Submission Date:** April 21, 2026
